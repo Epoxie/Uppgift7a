@@ -10,7 +10,21 @@ namespace Uppgift7a.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Index";
+
+            return View();
+        }
+
+        public ActionResult Create()
+        {
+            ViewBag.Title = "Create";
+
+            return View();
+        }
+
+        public ActionResult Edit()
+        {
+            ViewBag.Title = "Edit";
 
             return View();
         }

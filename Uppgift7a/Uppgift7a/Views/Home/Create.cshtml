@@ -1,0 +1,11 @@
+﻿<div class="jumbotron" ng-app="personApp">
+<h2>Create</h2>
+    <div ng-controller="appController">
+        <form id="leForm" ng-submit="sendData()" style="margin-left:auto; margin-right:auto">
+            <input required type="text" ng-model="Person.Name" placeholder="Name" /> <br />
+            <input required type="text" ng-model="Person.City" placeholder="City" /> <br />
+            <input required type="text" ng-model="Person.Occupation" placeholder="Occupation" />
+            <button type="submit">Send Data</button>
+        </form>
+    </div>
+</div>
